@@ -134,8 +134,7 @@
 
 ## 시스템 아키텍처
 
-<img src="https://raw.githubusercontent.com/hongik-grad-project-2026/.github/main/profile/images/architecture.png" alt="RGB 시스템 아키텍처" width="100%"/>
-
+<img src="https://raw.githubusercontent.com/hongik-grad-project-2026/.github/main/profile/images/architecture.png?v=2" alt="RGB 시스템 아키텍처" width="100%"/>
 가운데 Spring Boot 서버를 중심으로, 왼쪽은 사용자가 쓰는 화면, 오른쪽은 데이터 저장소, 위쪽은 배포와 성능 측정으로 이루어져 있습니다.
 
 - **요청 처리** : React 화면에서 보낸 API 요청은 먼저 Spring Security를 거칩니다. 로그인 때 받은 JWT에서 권한을 확인해, 학생 기능은 학생만, 관리자 기능은 조교·근로생만 통과시킵니다.
